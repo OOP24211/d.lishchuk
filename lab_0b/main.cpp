@@ -8,12 +8,12 @@
 
 
 int main(int argc, char* argv[]) {
-//    if(argc != 2){
-//        std::cout<<"Error of count arguments"<<std::endl;
-//        return 1;
-//    }
-    std::ifstream file_input("in.txt");
-    std::ofstream file_output("out.csv");
+    if(argc != 2){
+        std::cout<<"Error of count arguments"<<std::endl;
+        return 1;
+    }
+    std::ifstream file_input("argv[0]");
+    std::ofstream file_output("argv[1]");
     if(!file_input or !file_output){
         std::cout<<"Error: No such files on this directory"<<std::endl;
         return 1;
