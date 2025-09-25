@@ -1,6 +1,10 @@
 #include <string>
 #include <vector>
-namespace read
+class Read
 {
-    void reading_words(std::string str, std::vector<std::string> &word_list);
-}
+    private:
+        std::string word;
+        int character_id;
+    public:
+        void reading_words(std::string str, std::vector<std::string> &word_list);
+};

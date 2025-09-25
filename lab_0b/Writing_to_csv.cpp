@@ -4,8 +4,7 @@
 #include <fstream>
 #include <map>
 
-void double_arr_frequency_to_csv(std::ofstream& file, std::map<std::string,int>& double_arr, int word_cnt){
-    std::multimap<int, std::string, std::greater<>> sorted_double_arr;
+void Write::double_arr_frequency_to_csv(std::ofstream& file, std::map<std::string,int>& double_arr, int word_cnt){
     for(const auto& i : double_arr){
         sorted_double_arr.insert({i.second,i.first});
     }
