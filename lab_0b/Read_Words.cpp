@@ -1,7 +1,7 @@
 #include "Read_Words.h"
 #include <vector>
 #include <string>
-void Read::reading_words(std::string str, std::vector<std::string> &word_list){
+void Read::scanning(std::string str, std::vector<std::string> &word_list){
     for (int i = 0; i < str.length(); i++) {
         character_id = (unsigned char) str[i];
         if (character_id == 208) {
@@ -58,6 +58,12 @@ void Read::reading_words(std::string str, std::vector<std::string> &word_list){
             }
         }
     }
+}
+
+
+
+void Read::reading_words(std::string str, std::vector<std::string> &word_list){
+    scanning(str, word_list);
     if (!word.empty()) {
         word_list.push_back(word);
         word.erase();
