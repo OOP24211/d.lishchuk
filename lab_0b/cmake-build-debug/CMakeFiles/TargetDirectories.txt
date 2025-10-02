@@ -1,3 +1,0 @@
-C:/Users/1/Desktop/proga/2nd_course/d.lishchuk/lab_0b/cmake-build-debug/CMakeFiles/lab_0b.dir
-C:/Users/1/Desktop/proga/2nd_course/d.lishchuk/lab_0b/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/1/Desktop/proga/2nd_course/d.lishchuk/lab_0b/cmake-build-debug/CMakeFiles/rebuild_cache.dir
