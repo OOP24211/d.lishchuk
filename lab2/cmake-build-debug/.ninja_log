@@ -1,6 +1,0 @@
-# ninja log v6
-33	610	7865751712931517	CMakeFiles/lab2.dir/main.cpp.obj	433c8ac85336cc30
-59	1680	7865747721380300	CMakeFiles/lab2.dir/Player.cpp.obj	264fd58d1bca1be1
-610	831	7865751718717327	lab2.exe	efb8642741a0f019
-49	1579	7865747721292871	CMakeFiles/lab2.dir/Enemy.cpp.obj	f003568a9e3a3174
-55	1720	7865747721345549	CMakeFiles/lab2.dir/Enemy_Manager.cpp.obj	e8597fc3cef728fb
