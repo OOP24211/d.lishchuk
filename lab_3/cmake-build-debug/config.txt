@@ -1,0 +1,4 @@
+mute 0 30
+mix $2 10
+volume 1.5
+mute 45 50

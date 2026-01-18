@@ -6,4 +6,13 @@ lab_1/cmake-build-debug
 lab_2/.idea
 lab_2/cmake-build-debug
 lab_2/SFML-2.6.2
-
+lab_3/cmake-build-debug/.cmake
+lab_3/cmake-build-debug/CMakeFiles
+lab_3/cmake-build-debug/.ninja_deps
+lab_3/cmake-build-debug/.ninja_log
+lab_3/cmake-build-debug/build.ninja
+lab_3/cmake-build-debug/cmake_install.cmake
+lab_3/cmake-build-debug/CMakeCache.txt
+lab_3/cmake-build-debug/lab_3.ilk
+lab_3/cmake-build-debug/lab_3.pdb
+lab_3/.idea
